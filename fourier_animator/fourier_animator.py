@@ -31,15 +31,15 @@ min_area = 100     # 🌟 Minimum area of contour to keep
                    # Lower ➔ retain more small detail (more noise)
                    # Higher ➔ cleaner result, fewer small contours
 
-K = 100             # 🌟 Number of Fourier components to keep
+K = 70             # 🌟 Number of Fourier components to keep
 
-frame_step = 2     # 🌟 Animation speed (lower = smoother, higher = faster but rougher)
+frame_step = 3     # 🌟 Animation speed (lower = smoother, higher = faster but rougher)
 tail_ratio = 0.6   # 🌟 Ratio of N used for tail length (0.0 ~ 1.0)
 
 # ============================================================
 
 # Step 1: Image preprocessing
-img = cv2.imread("image.png", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("t.jpg", cv2.IMREAD_GRAYSCALE)
 blur = cv2.bilateralFilter(img, d=9, sigmaColor=75, sigmaSpace=75)
 
 binary = cv2.adaptiveThreshold(
