@@ -1,6 +1,8 @@
 # Quick Project: 利用 AI 快速將想法化為工具 🚀
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ## 🎯 專案目標 (Project Goal)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+
+## 🎯 專案目標 (Project Goal)
 
 本專案 (`quick_project`) 旨在展示如何利用 AI（特別是大型語言模型 LLM）與其他新興技術，將腦中的各種想法快速開發成實用或有趣的小工具。這不僅是一個技術實踐的集合，更是展現個人**快速學習、擁抱新技術 (與時俱進)** 以及**將創意付諸實現 (有趣的點子)** 的證明。
 
@@ -22,11 +24,12 @@
     * **亮點：** 結合語音辨識 AI 與桌面應用，解決特定輸入情境的需求。
 
 2.  **[🍑 3D 屁股物理模擬 (Slap Simulation)](./slap/)**
-    * **簡介：** 使用高效能圖形計算框架 `Taichi` 實現的 3D 軟體物理模擬，模擬一個由質點彈簧構成的彈性橢球體（屁股形狀），可透過滑鼠進行互動（拍打）。
-    * **亮點：** 探索物理模擬與即時渲染技術，展現創意與圖形編程能力。(注意：此工具 README 僅含影片連結，描述基於程式碼推斷)
+    * **簡介：** 一個充滿創意的物理模擬專案，使用高效能圖形計算框架 `Taichi` 實現。它透過質點-彈簧系統和 PBD 式約束模擬了一個具彈性的 3D 雙葉橢球體（形似臀部），並允許使用者透過滑鼠進行即時「拍打」互動。
+    * **亮點： 透過 `Taichi` 高效能框架，以創意方式展示了穩定的軟體物理模擬、程序化建模及即時互動視覺效果。**
+    * **[觀看 Demo 影片](https://www.youtube.com/watch?v=30DuSpVrrgY)** (註: 此工具 README 僅含影片連結)
 
 3.  **[🖌️ 傅立葉繪圖動畫 Web App (Fourier Animator Gradio)](./fourier_animator_gradio/)**
-    * **簡介：** 將 [傅立葉繪圖工具](#-傅立葉繪圖動畫生成器-fourier-animator) 包裝成 `Gradio` Web 應用，並部署於 Hugging Face Spaces。使用者可上傳圖片，調整參數後線上生成傅立葉重建動畫 (GIF)。
+    * **簡介：** 將 [傅立葉繪圖工具](#4---傅立葉繪圖動畫生成器-fourier-animator) 包裝成 `Gradio` Web 應用，並部署於 Hugging Face Spaces。使用者可上傳圖片，調整參數後線上生成傅立葉重建動畫 (GIF)。
     * **亮點：** 快速將本機工具轉為可公開互動的 Web App，展現部署與應用整合能力。([線上體驗](https://huggingface.co/spaces/ysinray/fourier-draw))
 
 4.  **[📈 傅立葉繪圖動畫生成器 (Fourier Animator)](./fourier_animator/)**
