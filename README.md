@@ -63,15 +63,3 @@
     * 繪圖 / 動畫: Matplotlib, Pygame, Pillow
 * **影像處理:** OpenCV
 
-## ⭐ 為何關注此專案？ (Why This Matters for Portfolio)
-
-這個專案集合體現了：
-
-* **與時俱進 (Adaptability & Continuous Learning):** 主動學習並應用 AI (語音、NLP、RL)、圖形計算 (Taichi)、Web App (Gradio) 等前沿或實用技術。
-* **有趣點子 (Creativity & Ideation):** 將抽象想法（如物理模擬、傅立葉視覺化、AI Vtuber）轉化為具體、有創意的解決方案或互動工具。
-* **執行力 (Execution & Prototyping):** 快速將概念落地，使用合適的工具高效完成原型開發，展現實踐能力。
-* **廣度與整合 (Breadth & Integration):** 專案涵蓋桌面應用、Web、AI 模型、物理模擬等多個面向，並能將不同技術整合在一起。
-
----
-
-希望這份 `README.md` 能有效幫助你展現你的能力！你可以直接將這段 Markdown 內容複製貼上到你的 `quick_project` repository 的根目錄下的 `README.md` 檔案中。記得檢查並確認每個工具的目錄連結 (`./tool_directory/`) 是否正確。
