@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ink">#17211B</color>
+    <color name="muted">#607068</color>
+    <color name="paper">#F7F7F2</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="accent">#315F47</color>
+    <color name="accent_soft">#E6EFE9</color>
+    <color name="line">#DDE3DE</color>
+    <color name="danger">#9B3D36</color>
+</resources>
